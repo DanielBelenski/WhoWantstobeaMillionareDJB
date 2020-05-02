@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="76dp"
         android:layout_marginTop="56dp"
-        android:text="Question 6"
+        android:text="@string/question_6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:layout_marginEnd="76dp"
-        android:text="$6,000"
+        android:text="@string/_6_000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
