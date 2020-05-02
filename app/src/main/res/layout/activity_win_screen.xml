@@ -6,4 +6,61 @@
     android:layout_height="match_parent"
     tools:context=".WinScreen">
 
+    <ImageView
+        android:id="@+id/winBackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/game_background"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/winbackground" />
+
+    <Button
+        android:id="@+id/winPlayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#A5AEE135"
+        android:onClick="toTitle"
+        android:outlineProvider="none"
+        android:text="@string/play_again"
+        android:textColor="#580DCA"
+        app:layout_constraintBottom_toBottomOf="@+id/winBackground"
+        app:layout_constraintEnd_toStartOf="@+id/winBackground"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/winBackground"
+        app:layout_constraintTop_toBottomOf="@+id/winningText" />
+
+    <TextView
+        android:id="@+id/winText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_win"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#580DCA"
+        app:layout_constraintBottom_toTopOf="@+id/winningText"
+        app:layout_constraintEnd_toStartOf="@+id/winBackground"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/winBackground"
+        app:layout_constraintTop_toTopOf="@+id/winBackground" />
+
+    <TextView
+        android:id="@+id/winningText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_won_1_000_000"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#580DCA"
+        app:layout_constraintBottom_toTopOf="@+id/winBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/winBackground" />
 </androidx.constraintlayout.widget.ConstraintLayout>

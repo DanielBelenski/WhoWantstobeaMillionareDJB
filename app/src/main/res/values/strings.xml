@@ -3,4 +3,13 @@
     <string name="play_game">Play Game</string>
     <string name="game_logo">Game Logo</string>
     <string name="game_background">Game Background</string>
+    <string name="play_again">Play Again</string>
+    <string name="you_lost">You Lost</string>
+    <string name="text_to_be_replaced">text to be replaced</string>
+    <string name="you_win">You Win!</string>
+    <string name="you_won_1_000_000">You won $1,000,000!</string>
+    <string name="answer">Answer</string>
+    <string name="question_text">Question Text</string>
+    <string name="_0">$0</string>
+    <string name="question_1">Question 1</string>
 </resources>

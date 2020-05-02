@@ -2,6 +2,8 @@ package com.example.whowantstobeamillionaredjb;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
@@ -16,5 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void toGame(View view){
 
+        Intent start = new Intent(this, Question1.class);
+        startService(start);
     }
 }
