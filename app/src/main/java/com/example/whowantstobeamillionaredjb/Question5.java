@@ -38,6 +38,7 @@ public class Question5 extends AppCompatActivity {
                     }
                 });
         builder.create();
+        builder.show();
     }
 
     public void fail5(View view){
@@ -61,5 +62,6 @@ public class Question5 extends AppCompatActivity {
                     }
                 });
         builder.create();
+        builder.show();
     }
 }

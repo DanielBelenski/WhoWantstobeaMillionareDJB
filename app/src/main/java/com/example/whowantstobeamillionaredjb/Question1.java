@@ -6,6 +6,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -38,6 +39,7 @@ public class Question1 extends AppCompatActivity {
             }
         });
         builder.create();
+        builder.show();
     }
 
     public void fail1(View view){
@@ -48,10 +50,14 @@ public class Question1 extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         Intent fail = new Intent(Question1.this, FailScreen.class);
+                        Log.d("Debug","Intent");
                         fail.putExtra("money",0);
+                        Log.d("Debug","Extra");
                         Question1.this.startActivity(fail);
+                        Log.d("Debug","start");
                         CharSequence text = "Sorry, wrong answer";
                         Toast.makeText(Question1.this, text, Toast.LENGTH_SHORT).show();
+                        Log.d("Debug","Toast");
                     }
                 })
                 .setNegativeButton("No", new DialogInterface.OnClickListener() {
@@ -61,5 +67,6 @@ public class Question1 extends AppCompatActivity {
                     }
                 });
         builder.create();
+        builder.show();
     }
 }

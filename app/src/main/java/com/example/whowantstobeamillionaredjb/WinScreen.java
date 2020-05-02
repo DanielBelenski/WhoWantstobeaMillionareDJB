@@ -18,6 +18,6 @@ public class WinScreen extends AppCompatActivity {
     public void toTitle(View view){
 
         Intent restart = new Intent(this, MainActivity.class);
-        startService(restart);
+        startActivity(restart);
     }
 }

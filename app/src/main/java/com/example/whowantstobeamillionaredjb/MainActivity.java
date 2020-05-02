@@ -20,6 +20,6 @@ public class MainActivity extends AppCompatActivity {
     public void toGame(View view){
 
         Intent start = new Intent(this, Question1.class);
-        startService(start);
+        startActivity(start);
     }
 }

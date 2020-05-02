@@ -38,9 +38,10 @@ public class Question4 extends AppCompatActivity {
                     }
                 });
         builder.create();
+        builder.show();
     }
 
-    public void fail5(View view){
+    public void fail4(View view){
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage("Are you sure this is your answer?")
@@ -61,5 +62,6 @@ public class Question4 extends AppCompatActivity {
                     }
                 });
         builder.create();
+        builder.show();
     }
 }
