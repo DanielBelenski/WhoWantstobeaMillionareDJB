@@ -15,6 +15,7 @@ public class Question7 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question7);
+        getSupportActionBar().hide();
     }
 
     public void toQuestion8(final View view){

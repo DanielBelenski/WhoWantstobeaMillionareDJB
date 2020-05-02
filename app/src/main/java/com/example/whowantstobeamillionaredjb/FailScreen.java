@@ -27,6 +27,7 @@ public class FailScreen extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fail_screen);
+        getSupportActionBar().hide();
     }
 
     //
