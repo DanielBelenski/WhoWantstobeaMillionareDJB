@@ -38,14 +38,20 @@
         android:layout_marginTop="56dp"
         android:layout_marginEnd="76dp"
         android:text="@string/_2_000"
+        android:textColor="#84FF00"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/question5"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="@string/question_text"
+        android:background="#8D3D8DDC"
+        android:text="@string/what_determines_how_much_you_weigh_on_a_planet"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/q5a1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,10 +60,12 @@
 
     <Button
         android:id="@+id/q5a1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#8D3D8DDC"
         android:onClick="toQuestion6"
-        android:text="@string/answer"
+        android:text="@string/mass_and_gravity"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q5a2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,9 +74,12 @@
 
     <Button
         android:id="@+id/q5a2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="fail5"
+        android:text="@string/mass_and_acceleration"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q5a3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -77,9 +88,12 @@
 
     <Button
         android:id="@+id/q5a3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="fail5"
+        android:text="@string/acceleration_and_gravity"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q5a4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,10 +102,12 @@
 
     <Button
         android:id="@+id/q5a4"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#8D3D8DDC"
         android:onClick="fail5"
-        android:text="@string/answer"
+        android:text="@string/gravity"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

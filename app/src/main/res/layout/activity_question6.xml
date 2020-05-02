@@ -28,6 +28,7 @@
         android:layout_marginStart="76dp"
         android:layout_marginTop="56dp"
         android:text="@string/question_6"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -38,14 +39,20 @@
         android:layout_marginTop="56dp"
         android:layout_marginEnd="76dp"
         android:text="@string/_6_000"
+        android:textColor="#84FF00"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/question6"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="@string/question_text"
+        android:background="#8D3D8DDC"
+        android:text="@string/what_element_is_denoted_by_the_chemical_symbol_fe"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/q6a1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,10 +61,12 @@
 
     <Button
         android:id="@+id/q6a1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="toQuestion7"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="fail6"
+        android:text="@string/fermium"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q6a2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,9 +75,12 @@
 
     <Button
         android:id="@+id/q6a2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="toQuestion7"
+        android:text="@string/iron"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q6a3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -77,9 +89,12 @@
 
     <Button
         android:id="@+id/q6a3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="fail6"
+        android:text="@string/gold"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q6a4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,10 +103,12 @@
 
     <Button
         android:id="@+id/q6a4"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#8D3D8DDC"
         android:onClick="fail6"
-        android:text="@string/answer"
+        android:text="@string/flerovium"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

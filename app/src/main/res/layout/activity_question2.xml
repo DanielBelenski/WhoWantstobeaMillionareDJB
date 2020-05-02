@@ -28,6 +28,7 @@
         android:layout_marginStart="76dp"
         android:layout_marginTop="56dp"
         android:text="@string/question_2"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -38,14 +39,21 @@
         android:layout_marginTop="56dp"
         android:layout_marginEnd="76dp"
         android:text="@string/_100"
+        android:textColor="#84FF00"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/question2"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="@string/question_text"
+        android:background="#8D3D8DDC"
+        android:text="@string/what_do_you_call_a_triangle_whose_sides_are_all_equal_in_length"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/q2a1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,10 +62,12 @@
 
     <Button
         android:id="@+id/q2a1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="toQuestion3"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="fail2"
+        android:text="@string/scalene"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q2a2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,9 +76,12 @@
 
     <Button
         android:id="@+id/q2a2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="fail2"
+        android:text="@string/isosceles"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q2a3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -77,9 +90,12 @@
 
     <Button
         android:id="@+id/q2a3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="fail2"
+        android:text="@string/regular"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q2a4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,10 +104,12 @@
 
     <Button
         android:id="@+id/q2a4"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="fail2"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="toQuestion3"
+        android:text="@string/equilateral"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -27,7 +27,7 @@ public class Question10 extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         Intent nextQuestion = new Intent(Question10.this, WinScreen.class);
                         Question10.this.startActivity(nextQuestion);
-                        CharSequence text = "Congratulations, you won some money!";
+                        CharSequence text = "Congratulations, you won the game!";
                         Toast.makeText(Question10.this, text, Toast.LENGTH_SHORT).show();
                     }
                 })

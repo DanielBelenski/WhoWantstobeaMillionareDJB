@@ -28,6 +28,7 @@
         android:layout_marginStart="76dp"
         android:layout_marginTop="56dp"
         android:text="@string/question_4"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -38,26 +39,37 @@
         android:layout_marginTop="56dp"
         android:layout_marginEnd="76dp"
         android:text="@string/_1_000"
+        android:textColor="#84FF00"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/question4"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="@string/question_text"
+        android:background="#8D3D8DDC"
+        android:text="@string/what_is_the_term_in_english_where_two_things_are_compared_without_using_the_words_like_or_as"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/q4a1"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.69" />
+        app:layout_constraintVertical_bias="0.689" />
 
     <Button
         android:id="@+id/q4a1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="toQuestion5"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="fail4"
+        android:text="@string/similie"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q4a2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,9 +78,12 @@
 
     <Button
         android:id="@+id/q4a2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="fail4"
+        android:text="@string/alegory"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q4a3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -77,9 +92,12 @@
 
     <Button
         android:id="@+id/q4a3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="toQuestion5"
+        android:text="@string/metaphor"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q4a4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,10 +106,12 @@
 
     <Button
         android:id="@+id/q4a4"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#8D3D8DDC"
         android:onClick="fail4"
-        android:text="@string/answer"
+        android:text="@string/symbolism"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

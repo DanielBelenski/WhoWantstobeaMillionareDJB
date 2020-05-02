@@ -28,6 +28,7 @@
         android:layout_marginStart="76dp"
         android:layout_marginTop="56dp"
         android:text="@string/question_3"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -38,26 +39,36 @@
         android:layout_marginTop="56dp"
         android:layout_marginEnd="76dp"
         android:text="@string/_400"
+        android:textColor="#84FF00"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/question3"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="@string/question_text"
+        android:background="#8D3D8DDC"
+        android:text="@string/who_painted_the_painting_starry_night"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/q3a1"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.69" />
+        app:layout_constraintVertical_bias="0.683" />
 
     <Button
         android:id="@+id/q3a1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="toQuestion4"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="fail3"
+        android:text="@string/pablo_picasso"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q3a2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,9 +77,12 @@
 
     <Button
         android:id="@+id/q3a2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="toQuestion4"
+        android:text="@string/vincent_van_gogh"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q3a3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -77,9 +91,12 @@
 
     <Button
         android:id="@+id/q3a3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="fail3"
+        android:text="@string/keith_haring"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q3a4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,10 +105,12 @@
 
     <Button
         android:id="@+id/q3a4"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#8D3D8DDC"
         android:onClick="fail3"
-        android:text="@string/answer"
+        android:text="@string/katsushika_hokusai"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

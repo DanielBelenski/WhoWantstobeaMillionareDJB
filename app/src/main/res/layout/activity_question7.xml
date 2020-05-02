@@ -38,14 +38,19 @@
         android:layout_marginTop="56dp"
         android:layout_marginEnd="76dp"
         android:text="@string/_26_000"
+        android:textColor="#84FF00"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/question7"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="@string/question_text"
+        android:background="#8D3D8DDC"
+        android:text="@string/what_is_a_common_name_for_the_excess_or_loose_skin_at_the_joint_of_one_s_elbow"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/q7a1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,10 +59,12 @@
 
     <Button
         android:id="@+id/q7a1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="toQuestion8"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="fail7"
+        android:text="@string/humerus"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q7a2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,9 +73,12 @@
 
     <Button
         android:id="@+id/q7a2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="fail7"
+        android:text="@string/brachialis"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q7a3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -77,21 +87,27 @@
 
     <Button
         android:id="@+id/q7a3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="toQuestion8"
+        android:text="@string/weenus"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q7a4"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9" />
+        app:layout_constraintVertical_bias="0.895" />
 
     <Button
         android:id="@+id/q7a4"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#8D3D8DDC"
         android:onClick="fail7"
-        android:text="@string/answer"
+        android:text="@string/pronator_teres"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

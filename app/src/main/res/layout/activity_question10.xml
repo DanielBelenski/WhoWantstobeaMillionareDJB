@@ -38,14 +38,19 @@
         android:layout_marginTop="56dp"
         android:layout_marginEnd="76dp"
         android:text="@string/_500_000"
+        android:textColor="#84FF00"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/question10"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="@string/question_text"
+        android:background="#8D3D8DDC"
+        android:text="@string/what_is_the_true_name_of_he_who_must_not_be_named"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/q10a1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,10 +59,12 @@
 
     <Button
         android:id="@+id/q10a1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#8D3D8DDC"
         android:onClick="toWin"
-        android:text="@string/answer"
+        android:text="@string/tom_marvolo_riddle"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q10a2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,10 +73,12 @@
 
     <Button
         android:id="@+id/q10a2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#8D3D8DDC"
         android:onClick="fail10"
-        android:text="@string/answer"
+        android:text="@string/hannibal_lecter"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q10a3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -78,9 +87,12 @@
 
     <Button
         android:id="@+id/q10a3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/answer"
+        android:background="#8D3D8DDC"
+        android:onClick="fail10"
+        android:text="@string/sauron"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/q10a4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -89,10 +101,12 @@
 
     <Button
         android:id="@+id/q10a4"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#8D3D8DDC"
         android:onClick="fail10"
-        android:text="@string/answer"
+        android:text="@string/anakin_skywalker"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
