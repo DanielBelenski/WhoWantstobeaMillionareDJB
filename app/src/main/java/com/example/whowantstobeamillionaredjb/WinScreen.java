@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+//Screen for when the user wins the game
 public class WinScreen extends AppCompatActivity {
 
     @Override
@@ -15,6 +16,7 @@ public class WinScreen extends AppCompatActivity {
         getSupportActionBar().hide();
     }
 
+    //method to take the user back to the splash screen
     public void toTitle(View view){
 
         Intent restart = new Intent(this, MainActivity.class);

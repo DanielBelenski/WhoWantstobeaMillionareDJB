@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Question3">
 
+    <!-- background -->
     <ImageView
         android:id="@+id/questionBackground"
         android:layout_width="wrap_content"
@@ -21,6 +22,7 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/background" />
 
+    <!-- Question number -->
     <TextView
         android:id="@+id/number3"
         android:layout_width="wrap_content"
@@ -32,6 +34,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- amount won so far -->
     <TextView
         android:id="@+id/money3"
         android:layout_width="wrap_content"
@@ -44,6 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- Question -->
     <TextView
         android:id="@+id/question3"
         android:layout_width="200dp"
@@ -61,6 +65,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.683" />
 
+    <!-- Answer 1 -->
     <Button
         android:id="@+id/q3a1"
         android:layout_width="match_parent"
@@ -75,6 +80,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.9" />
 
+    <!-- Answer 2 -->
     <Button
         android:id="@+id/q3a2"
         android:layout_width="match_parent"
@@ -89,6 +95,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.9" />
 
+    <!-- Answer 3 -->
     <Button
         android:id="@+id/q3a3"
         android:layout_width="match_parent"
@@ -103,6 +110,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.9" />
 
+    <!-- Answer 4 -->
     <Button
         android:id="@+id/q3a4"
         android:layout_width="match_parent"

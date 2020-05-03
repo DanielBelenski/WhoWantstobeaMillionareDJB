@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".WinScreen">
 
+    <!-- background -->
     <ImageView
         android:id="@+id/winBackground"
         android:layout_width="0dp"
@@ -21,6 +22,7 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/winbackground" />
 
+    <!-- Button to return to splash screen -->
     <Button
         android:id="@+id/winPlayButton"
         android:layout_width="wrap_content"
@@ -36,6 +38,7 @@
         app:layout_constraintStart_toEndOf="@+id/winBackground"
         app:layout_constraintTop_toBottomOf="@+id/winningText" />
 
+    <!-- Player wins banner -->
     <TextView
         android:id="@+id/winText"
         android:layout_width="wrap_content"
@@ -50,6 +53,7 @@
         app:layout_constraintStart_toEndOf="@+id/winBackground"
         app:layout_constraintTop_toTopOf="@+id/winBackground" />
 
+    <!-- message about amount won -->
     <TextView
         android:id="@+id/winningText"
         android:layout_width="wrap_content"

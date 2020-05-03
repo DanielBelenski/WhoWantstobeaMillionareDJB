@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- background -->
     <ImageView
         android:id="@+id/splashBackground"
         android:layout_width="wrap_content"
@@ -21,6 +22,7 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/background" />
 
+    <!-- Game Logo -->
     <ImageView
         android:id="@+id/splashLogo"
         android:layout_width="wrap_content"
@@ -32,6 +34,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/wwtbamlogo" />
 
+    <!-- Button to start game -->
     <Button
         android:id="@+id/playButton"
         android:layout_width="wrap_content"

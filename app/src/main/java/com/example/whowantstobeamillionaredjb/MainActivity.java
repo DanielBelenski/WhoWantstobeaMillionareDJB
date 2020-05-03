@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
     }
 
+    // method to take the user to the first question of the game
     public void toGame(View view){
 
         Intent start = new Intent(this, Question1.class);

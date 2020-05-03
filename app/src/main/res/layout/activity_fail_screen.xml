@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".FailScreen">
 
+    <!-- Background -->
     <ImageView
         android:id="@+id/failBackground"
         android:layout_width="0dp"
@@ -20,6 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/failbackground" />
 
+    <!-- Button to go back to the splash screen -->
     <Button
         android:id="@+id/failPlayAgain"
         android:layout_width="wrap_content"
@@ -34,6 +36,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/failTextView" />
 
+    <!-- You lost message -->
     <TextView
         android:id="@+id/failTextView"
         android:layout_width="wrap_content"
@@ -47,6 +50,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/failureTextView" />
 
+    <!-- informing the user they lost -->
     <TextView
         android:id="@+id/failureTextView"
         android:layout_width="wrap_content"
