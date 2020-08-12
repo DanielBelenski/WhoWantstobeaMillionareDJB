@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     // method to take the user to the first question of the game
     public void toGame(View view){
 
+        //this is a new comment
         Intent start = new Intent(this, Question1.class);
         startActivity(start);
     }
